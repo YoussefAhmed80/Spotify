@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Spotify\\Spotify\\Spotify\\Spotify.csproj": {}
+    "F:\\20_WebAPI\\Projects\\AuthWebApi\\Spotify\\Spotify\\Spotify.csproj": {}
   },
   "projects": {
-    "F:\\Spotify\\Spotify\\Spotify\\Spotify.csproj": {
+    "F:\\20_WebAPI\\Projects\\AuthWebApi\\Spotify\\Spotify\\Spotify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Spotify\\Spotify\\Spotify\\Spotify.csproj",
+        "projectUniqueName": "F:\\20_WebAPI\\Projects\\AuthWebApi\\Spotify\\Spotify\\Spotify.csproj",
         "projectName": "Spotify",
-        "projectPath": "F:\\Spotify\\Spotify\\Spotify\\Spotify.csproj",
-        "packagesPath": "C:\\Users\\engah\\.nuget\\packages\\",
-        "outputPath": "F:\\Spotify\\Spotify\\Spotify\\obj\\",
+        "projectPath": "F:\\20_WebAPI\\Projects\\AuthWebApi\\Spotify\\Spotify\\Spotify.csproj",
+        "packagesPath": "C:\\Users\\welcome\\.nuget\\packages\\",
+        "outputPath": "F:\\20_WebAPI\\Projects\\AuthWebApi\\Spotify\\Spotify\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\engah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\welcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "F:\\16_WPF\\Project2V1\\Package Source": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -90,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
