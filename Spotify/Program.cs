@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Spotify.DTO;
 using Spotify.Models;
 using Spotify.Repository;
 using Spotify.Repository.Base;
@@ -51,7 +52,7 @@ namespace Spotify
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            
+
 
             builder.Services.AddSwaggerGen(swagger =>
             {
@@ -82,14 +83,14 @@ namespace Spotify
                                 Type = ReferenceType.SecurityScheme,
                                 Id = "Bearer"
                             }
-                        },
-new string[] { }
+                        },new string[] { }
 
                     }
                 });
             });
 
             var app = builder.Build();
+           
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -99,8 +100,12 @@ new string[] { }
             }
 
             app.UseAuthorization();
+            app.UseStaticFiles();
 
-
+            app.UseCors(builder => builder
+           .AllowAnyOrigin()
+           .AllowAnyMethod()
+           .AllowAnyHeader());
             app.MapControllers();
 
             app.Run();

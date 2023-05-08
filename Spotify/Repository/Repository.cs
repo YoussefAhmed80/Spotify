@@ -11,30 +11,36 @@ namespace Spotify.Repository
             Context = _Context;
         }
 
-        public void Add(T entity)
+        public virtual void Add(T entity)
         {
             Context.Set<T>().Add(entity);
             Context.SaveChanges();
         }
 
-        public void Delete(int id)
+        public virtual void Delete(int id)
         {
-            T element = Context.Set<T>().Find(id);
+            T element = Context.Set<T>(). Find(id);
             Context.Set<T>().Remove(element);
             Context.SaveChanges();
         }
 
-        public List<T> GetAll(Func<T, bool> predicate)
+        public virtual List<T> GetAll(Func<T, bool> predicate)
         {
             return Context.Set<T>().Where(predicate).ToList();
         }
 
-        public T GetById(int id, Func<T, bool> predicate)
+        public virtual T GetById(int id, Func<T, bool> predicate)
         {
             return Context.Find<T>(id);
         }
 
-        public void Update(int id, T newElement)
+        public virtual T GetByIdString(string id, Func<T, bool> predicate)
+        {
+            return Context.Find<T>(id);
+        }
+
+
+        public virtual void Update(int id, T newElement)
         {
             Context.Set<T>().Update(newElement);
             Context.SaveChanges();

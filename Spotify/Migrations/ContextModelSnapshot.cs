@@ -163,7 +163,11 @@ namespace Spotify.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ArtistId")
+                    b.Property<string>("ArtistId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("Image")
@@ -184,7 +188,27 @@ namespace Spotify.Migrations
 
                     b.HasIndex("ArtistId");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Albums");
+                });
+
+            modelBuilder.Entity("Spotify.Models.AlbumSongs", b =>
+                {
+                    b.Property<int>("SongId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AlbumId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("SongId");
+
+                    b.HasIndex("AlbumId");
+
+                    b.ToTable("AlbumSongs");
                 });
 
             modelBuilder.Entity("Spotify.Models.ApplicationUser", b =>
@@ -193,6 +217,9 @@ namespace Spotify.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Age")
                         .HasColumnType("int");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -205,6 +232,23 @@ namespace Spotify.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Gender")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -252,43 +296,41 @@ namespace Spotify.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("Spotify.Models.ArtType", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("ArtistId")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("TypeId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ArtistId");
-
-                    b.HasIndex("TypeId");
-
-                    b.ToTable("ArtTypes");
-                });
-
             modelBuilder.Entity("Spotify.Models.Artist", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Bio")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ApplicationUserId");
+
+                    b.ToTable("Artists");
+                });
+
+            modelBuilder.Entity("Spotify.Models.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Image")
                         .IsRequired()
@@ -303,7 +345,7 @@ namespace Spotify.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Artists");
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("Spotify.Models.Follower", b =>
@@ -314,14 +356,16 @@ namespace Spotify.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ArtistId")
-                        .HasColumnType("int");
+                    b.Property<string>("ArtistId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
@@ -349,17 +393,47 @@ namespace Spotify.Migrations
                     b.Property<int>("SongId")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("SongId");
 
-                    b.HasIndex("UserId")
-                        .IsUnique();
+                    b.HasIndex("UserId");
 
                     b.ToTable("Likes");
+                });
+
+            modelBuilder.Entity("Spotify.Models.ListenDate", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("SongId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SongId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ListenDates");
                 });
 
             modelBuilder.Entity("Spotify.Models.Playlist", b =>
@@ -371,18 +445,17 @@ namespace Spotify.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
@@ -399,7 +472,7 @@ namespace Spotify.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("AlbumId")
+                    b.Property<int?>("AlbumId")
                         .HasColumnType("int");
 
                     b.Property<bool>("IsDeleted")
@@ -408,7 +481,7 @@ namespace Spotify.Migrations
                     b.Property<int>("PlaylistId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Rank")
+                    b.Property<int?>("Rank")
                         .HasColumnType("int");
 
                     b.Property<int>("SongId")
@@ -433,14 +506,26 @@ namespace Spotify.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("AlbumId")
-                        .HasColumnType("int");
+                    b.Property<string>("AlbumImage")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ArtistId")
-                        .HasColumnType("int");
+                    b.Property<string>("AlbumName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ArtistId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Audio")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<float>("Duration")
                         .HasColumnType("real");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
@@ -448,50 +533,27 @@ namespace Spotify.Migrations
                     b.Property<int>("ListenTimes")
                         .HasColumnType("int");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Lyrics")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Path")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("ReleaseDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("Id");
-
-                    b.HasIndex("AlbumId");
-
-                    b.HasIndex("ArtistId");
-
-                    b.ToTable("Songs");
-                });
-
-            modelBuilder.Entity("Spotify.Models.SongType", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("SongId")
-                        .HasColumnType("int");
-
                     b.Property<int>("TypeId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("SongId");
+                    b.HasIndex("ArtistId");
 
                     b.HasIndex("TypeId");
 
-                    b.ToTable("SongsTypes");
+                    b.ToTable("Songs");
                 });
 
             modelBuilder.Entity("Spotify.Models.Type", b =>
@@ -516,27 +578,24 @@ namespace Spotify.Migrations
 
             modelBuilder.Entity("Spotify.Models.User", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("BirthDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Country")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Image")
+                    b.Property<string>("FirstName")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -544,7 +603,7 @@ namespace Spotify.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("ApplicationUserId");
 
                     b.ToTable("Users");
                 });
@@ -608,26 +667,45 @@ namespace Spotify.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Spotify.Models.Category", "Category")
+                        .WithMany("Albums")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Artist");
+
+                    b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("Spotify.Models.ArtType", b =>
+            modelBuilder.Entity("Spotify.Models.AlbumSongs", b =>
                 {
-                    b.HasOne("Spotify.Models.Artist", "Artist")
-                        .WithMany("ArtTypes")
-                        .HasForeignKey("ArtistId")
+                    b.HasOne("Spotify.Models.Album", "Album")
+                        .WithMany("AlbumSongs")
+                        .HasForeignKey("AlbumId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Spotify.Models.Type", "Type")
-                        .WithMany("ArtTypes")
-                        .HasForeignKey("TypeId")
+                    b.HasOne("Spotify.Models.Song", "Song")
+                        .WithOne("AlbumSongs")
+                        .HasForeignKey("Spotify.Models.AlbumSongs", "SongId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Artist");
+                    b.Navigation("Album");
 
-                    b.Navigation("Type");
+                    b.Navigation("Song");
+                });
+
+            modelBuilder.Entity("Spotify.Models.Artist", b =>
+                {
+                    b.HasOne("Spotify.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany()
+                        .HasForeignKey("ApplicationUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
                 });
 
             modelBuilder.Entity("Spotify.Models.Follower", b =>
@@ -658,8 +736,27 @@ namespace Spotify.Migrations
                         .IsRequired();
 
                     b.HasOne("Spotify.Models.User", "User")
-                        .WithOne("Likes")
-                        .HasForeignKey("Spotify.Models.Likes", "UserId")
+                        .WithMany("Likes")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Song");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Spotify.Models.ListenDate", b =>
+                {
+                    b.HasOne("Spotify.Models.Song", "Song")
+                        .WithMany("ListenDates")
+                        .HasForeignKey("SongId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Spotify.Models.User", "User")
+                        .WithMany("ListenDates")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -683,9 +780,7 @@ namespace Spotify.Migrations
                 {
                     b.HasOne("Spotify.Models.Album", "Album")
                         .WithMany()
-                        .HasForeignKey("AlbumId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AlbumId");
 
                     b.HasOne("Spotify.Models.Playlist", "Playlist")
                         .WithMany("PlaylistSongs")
@@ -708,54 +803,51 @@ namespace Spotify.Migrations
 
             modelBuilder.Entity("Spotify.Models.Song", b =>
                 {
-                    b.HasOne("Spotify.Models.Album", "Album")
-                        .WithMany("Songs")
-                        .HasForeignKey("AlbumId");
-
                     b.HasOne("Spotify.Models.Artist", "Artist")
                         .WithMany("Songs")
                         .HasForeignKey("ArtistId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Album");
-
-                    b.Navigation("Artist");
-                });
-
-            modelBuilder.Entity("Spotify.Models.SongType", b =>
-                {
-                    b.HasOne("Spotify.Models.Song", "Song")
-                        .WithMany("SongTypes")
-                        .HasForeignKey("SongId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Spotify.Models.Type", "Type")
-                        .WithMany("SongTypes")
+                        .WithMany("Songs")
                         .HasForeignKey("TypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Song");
+                    b.Navigation("Artist");
 
                     b.Navigation("Type");
                 });
 
+            modelBuilder.Entity("Spotify.Models.User", b =>
+                {
+                    b.HasOne("Spotify.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany()
+                        .HasForeignKey("ApplicationUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+                });
+
             modelBuilder.Entity("Spotify.Models.Album", b =>
                 {
-                    b.Navigation("Songs");
+                    b.Navigation("AlbumSongs");
                 });
 
             modelBuilder.Entity("Spotify.Models.Artist", b =>
                 {
                     b.Navigation("Albums");
 
-                    b.Navigation("ArtTypes");
-
                     b.Navigation("Follower");
 
                     b.Navigation("Songs");
+                });
+
+            modelBuilder.Entity("Spotify.Models.Category", b =>
+                {
+                    b.Navigation("Albums");
                 });
 
             modelBuilder.Entity("Spotify.Models.Playlist", b =>
@@ -765,18 +857,18 @@ namespace Spotify.Migrations
 
             modelBuilder.Entity("Spotify.Models.Song", b =>
                 {
+                    b.Navigation("AlbumSongs");
+
                     b.Navigation("Likes");
 
-                    b.Navigation("PlaylistSongs");
+                    b.Navigation("ListenDates");
 
-                    b.Navigation("SongTypes");
+                    b.Navigation("PlaylistSongs");
                 });
 
             modelBuilder.Entity("Spotify.Models.Type", b =>
                 {
-                    b.Navigation("ArtTypes");
-
-                    b.Navigation("SongTypes");
+                    b.Navigation("Songs");
                 });
 
             modelBuilder.Entity("Spotify.Models.User", b =>
@@ -784,6 +876,8 @@ namespace Spotify.Migrations
                     b.Navigation("Followers");
 
                     b.Navigation("Likes");
+
+                    b.Navigation("ListenDates");
 
                     b.Navigation("Playlist");
                 });

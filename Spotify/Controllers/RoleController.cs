@@ -21,6 +21,7 @@ namespace Spotify.Controllers
         [HttpPost]
         public async Task<IActionResult> New(RoleDto roleDto)
         {
+            ResultDTO resultDTO = new ResultDTO();
             if (ModelState.IsValid)
             {
                 IdentityRole roleModel = new IdentityRole();
@@ -28,15 +29,19 @@ namespace Spotify.Controllers
                 IdentityResult result = await roleManager.CreateAsync(roleModel);
                 if (result.Succeeded)
                 {
-                    return Ok("Created Success");
+                    resultDTO.IsPassed = true;
+                    resultDTO.Data="Created Success";
+                    return Ok(resultDTO);
                 }
                 else
                 {
+                    resultDTO.IsPassed = false;
                     ModelState.AddModelError("", result.Errors.FirstOrDefault().Description);
                 }
 
             }
-            return BadRequest(ModelState);
+            resultDTO.Data = ModelState;
+            return BadRequest(resultDTO);
         }
     }
 }

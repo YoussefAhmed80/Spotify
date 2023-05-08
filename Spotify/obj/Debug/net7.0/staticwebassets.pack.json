@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\20_WebAPI\\Projects\\_FriDay\\Spotify\\Spotify\\wwwroot\\audios\\1.mp3",
+      "PackagePath": "staticwebassets\\audios\\1.mp3"
+    },
+    {
+      "Id": "F:\\20_WebAPI\\Projects\\_FriDay\\Spotify\\Spotify\\wwwroot\\images\\1&1&2.png",
+      "PackagePath": "staticwebassets\\images\\1&1&2.png"
+    },
+    {
+      "Id": "F:\\20_WebAPI\\Projects\\_FriDay\\Spotify\\Spotify\\wwwroot\\images\\215732339.jpg",
+      "PackagePath": "staticwebassets\\images\\215732339.jpg"
+    },
+    {
+      "Id": "F:\\20_WebAPI\\Projects\\_FriDay\\Spotify\\Spotify\\wwwroot\\images\\4300.jpg",
+      "PackagePath": "staticwebassets\\images\\4300.jpg"
+    },
+    {
+      "Id": "F:\\20_WebAPI\\Projects\\_FriDay\\Spotify\\Spotify\\wwwroot\\images\\Screenshot 2023-04-15 010808.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2023-04-15 010808.png"
+    },
+    {
+      "Id": "F:\\20_WebAPI\\Projects\\_FriDay\\Spotify\\Spotify\\wwwroot\\images\\Screenshot 2023-04-24 094927.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2023-04-24 094927.png"
+    },
+    {
+      "Id": "F:\\20_WebAPI\\Projects\\_FriDay\\Spotify\\Spotify\\wwwroot\\images\\Screenshot 2023-04-24 100736.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2023-04-24 100736.png"
+    },
+    {
+      "Id": "F:\\20_WebAPI\\Projects\\_FriDay\\Spotify\\Spotify\\wwwroot\\images\\Screenshot 2023-04-24 125227.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2023-04-24 125227.png"
+    },
+    {
+      "Id": "F:\\20_WebAPI\\Projects\\_FriDay\\Spotify\\Spotify\\wwwroot\\images\\Youssef.jpg",
+      "PackagePath": "staticwebassets\\images\\Youssef.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Spotify.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Spotify.props",
+      "PackagePath": "build\\Spotify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Spotify.props",
+      "PackagePath": "buildMultiTargeting\\Spotify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Spotify.props",
+      "PackagePath": "buildTransitive\\Spotify.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

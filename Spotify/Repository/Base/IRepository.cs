@@ -6,10 +6,14 @@
 
         T GetById(int id, Func<T, bool> predicate);
 
+        T GetByIdString(string id, Func<T, bool> predicate);
+
         void Delete(int id);
 
         void Update(int id, T repNmae);
 
         void Add(T entity);
+
+
     }
 }

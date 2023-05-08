@@ -11,11 +11,11 @@ namespace Spotify.Models
         [DefaultValue(false)]
         public bool IsDeleted { get; set; }
         
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         [ForeignKey("UserId")]
         public virtual User? User { get; set; }
         //[Key]
-        public int ArtistId { get; set; }
+        public string ArtistId { get; set; }
         [ForeignKey("ArtistId")]
         public virtual Artist? Artist { get; set; }
     }

@@ -1,12 +1,17 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Spotify.DTO;
+using Spotify.Migrations;
 using Spotify.Models;
+using Spotify.Repository.Base;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
+
 
 namespace Spotify.Controllers
 {
@@ -16,35 +21,147 @@ namespace Spotify.Controllers
     {
         private readonly UserManager<ApplicationUser> userManager;
         private readonly IConfiguration config;
+        private readonly IUnitOfWork unit;
+        private readonly IHostingEnvironment host;
 
-        public AccountController(UserManager<ApplicationUser> userManager, IConfiguration config)
+        public AccountController(UserManager<ApplicationUser> userManager, IConfiguration config,
+            IUnitOfWork _unit,IHostingEnvironment _host)
         {
             this.userManager = userManager;
             this.config = config;
+            unit = _unit;
+            host = _host;
         }
         [HttpPost("register")]//api/account/register
-        public async Task<IActionResult> Register(RegisterUserDto userDTO)
+        public async Task<IActionResult> Register([FromForm]RegisterDTO userDTO)
         {
             if (ModelState.IsValid)
             {
                 //create  ==>add user db
                 ApplicationUser userModel = new ApplicationUser();
+                ApplicationUser user = new ApplicationUser();
+                userModel.FirstName = userDTO.FirstName;
+                userModel.LastName = userDTO.LastName;
                 userModel.Email = userDTO.Email;
                 userModel.UserName = userDTO.UserName;
+
+                userModel.Age = ((DateTime.Now- userDTO.BirthDate).Days)/365;
+                userModel.Gender = userDTO.Gender;
+
+                string fileName = string.Empty;
+                if (userDTO.File == null || userDTO.File.Length == 0)
+                {
+                    return BadRequest(new { IsPassed = false, ErrorMessage = "No File Selected" });
+                }
+
+                string myUpload = Path.Combine(host.WebRootPath, "images");
+                fileName = userDTO.File.FileName;
+                string fullPath = Path.Combine(myUpload, fileName);
+
+                using (var stream = new FileStream(fullPath, FileMode.Create))
+                {
+                    await userDTO.File.CopyToAsync(stream);
+                }
+
+                userModel.Image = "http://localhost:5292/images/" + fileName;
+
                 IdentityResult result = await userManager.CreateAsync(userModel, userDTO.Password);
                 if (result.Succeeded)
                 {
-                    return Ok("Created Success");
+                    await userManager.AddToRoleAsync(userModel,userDTO.Role);
+
+                    return Ok(new { isPassed = true, Data = userModel});
                 }
                 else
-                    return BadRequest(result.Errors.First());
+                {
+                    return BadRequest(new { IsPassed = false, Data = userModel });
+                }
             }
             return BadRequest(ModelState);
+        }
+
+        [HttpPost("userregister")]
+        public IActionResult UserRegister(UserRegisterDTO userDTO)
+        {
+            ResultDTO result = new ResultDTO();
+            if (ModelState.IsValid)
+            {
+                User usermodel = new User();
+                usermodel.ApplicationUserId = userDTO.ApplicationUserId;
+                usermodel.FirstName = userDTO.FirstName;
+                usermodel.LastName = userDTO.LastName;
+                usermodel.Image= userDTO.Image;
+                usermodel.Region = userDTO.Region;
+                usermodel.Country = userDTO.Country;
+                //usermodel.Role = "User";
+                unit.UserRepository.Add(usermodel);
+
+                ReturnUserDTO returnUserDTO = new ReturnUserDTO();
+                returnUserDTO.ApplicationUserId = usermodel.ApplicationUserId;
+                returnUserDTO.IsDeleted = usermodel.IsDeleted;
+                //returnUserDTO.Role = usermodel.Role;
+                returnUserDTO.Image = usermodel.Image;
+                returnUserDTO.FirstName = usermodel.FirstName;
+                returnUserDTO.LastName = usermodel.LastName;
+                returnUserDTO.Region = usermodel.Region;
+                returnUserDTO.Country = usermodel.Country;
+
+                result.IsPassed = true;
+                result.Data= returnUserDTO;
+                return Ok(result);
+            }
+
+            result.IsPassed = false;
+            result.Data = "ModelState isInvalid";
+            return BadRequest(result);
+        }
+
+        [HttpPost("artistregister")]
+        public IActionResult ArtistRegister(ArtistRegisterDTO artistDTO)
+        {
+            ResultDTO result = new ResultDTO();
+            if (ModelState.IsValid)
+            {
+                Artist artistmodel = new Artist();
+                ApplicationUser appuser = unit.ApplicationUserRepository.GetByIdString(artistDTO.ApplicationUserId, a => a.IsDeleted == false);
+                ///// انا بجيبهم من ال
+                artistmodel.ApplicationUserId = appuser.Id;
+                artistmodel.FirstName= appuser.FirstName;
+                artistmodel.LastName= appuser.LastName;
+                artistmodel.Image = appuser.Image;
+                artistmodel.Bio = artistDTO.Bio;
+                //artistmodel.Role = "Artist";
+                unit.ArtistRepository.Add(artistmodel);
+                
+                ReturnArtistDTO returnArtistDTO = new ReturnArtistDTO();
+                returnArtistDTO.ApplicationUserId = artistDTO.ApplicationUserId;
+                returnArtistDTO.IsDeleted = artistmodel.IsDeleted;
+                //returnArtistDTO.Role = artistmodel.Role;
+                returnArtistDTO.Image = artistDTO.Image;
+                returnArtistDTO.FirstName = artistDTO.FirstName;
+                returnArtistDTO.LastName = artistDTO.LastName;
+                returnArtistDTO.Bio = artistDTO.Bio;
+                
+                result.IsPassed = true;
+                result.Data = returnArtistDTO;
+                return Ok(result);
+            }
+
+            result.IsPassed = false;
+            result.Data = "ModelState isInvalid";
+            return BadRequest(result);
+        }
+        [HttpGet("GetApplicationUser/{applicationUserId}")]
+        public IActionResult GetApplicationUser(string applicationUserId)
+        {
+            ApplicationUser user= unit.ApplicationUserRepository.GetByIdString(applicationUserId, u=>u.IsDeleted==false);
+            return Ok(user);
         }
 
         [HttpPost("login")]//api/account/login
         public async Task<IActionResult> Login(LoginDTO userDto)
         {
+            ResultDTO result = new ResultDTO();
             if (ModelState.IsValid)
             {
                 //check 
@@ -59,12 +176,39 @@ namespace Spotify.Controllers
                     myClaims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
 
                     List<string> roles = (List<string>)await userManager.GetRolesAsync(userModel);
-                    if (roles != null)
+
+                    string userRole = string.Empty;
+
+
+                    ApplicationUser applicationUser = 
+                        unit.ApplicationUserRepository.GetByUserName(userDto.UserName);
+
+                    if(applicationUser != null)
                     {
-                        foreach (var item in roles)
+                        Artist IsArtist = unit.ArtistRepository.GetByIdString(applicationUser.Id, a => a.IsDeleted == false);
+
+                        User IsUser = unit.UserRepository.GetByIdString(applicationUser.Id, a => a.IsDeleted == false);
+
+                        if (IsUser != null)
                         {
-                            myClaims.Add(new Claim(ClaimTypes.Role, item));
+                            userRole = "User";
                         }
+                        else if(IsArtist != null)
+                        {
+                            userRole = "Artist";
+                        }
+                        else
+                        {
+                            userRole = "Admin";
+                        }
+                    }
+                    
+                    if (roles != null && applicationUser != null )
+                    {
+                        //string userRole = applicationUser.
+
+                        myClaims.Add(new Claim(ClaimTypes.Role, userRole));
+                        
                     }
                     var authSecritKey =
                         new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["JWT:SecrytKey"]));//asdZXCZX!#!@342352
@@ -80,18 +224,23 @@ namespace Spotify.Controllers
                         claims: myClaims,
                         signingCredentials: credentials
                         );//signed token "resprest Toke"
-
-                    return Ok(new
+                    result.IsPassed= true;
+                    result.Data = new
                     {
                         token = new JwtSecurityTokenHandler().WriteToken(mytoken),
                         expiration = mytoken.ValidTo
-                    });
+                    };
+                    return Ok(result);
 
                 }
+                result.IsPassed = false;
+                result.Data = "Invalid Login Account";
                 //craete toke
-                return BadRequest("Invalid Login Account");
+                return BadRequest(result);
             }
-            return BadRequest(ModelState);
+            result.IsPassed= false;
+            result.Data = ModelState;
+            return BadRequest(result);
         }
     }
 }

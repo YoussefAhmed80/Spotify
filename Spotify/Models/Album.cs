@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace Spotify.Models
 {
@@ -12,9 +13,20 @@ namespace Spotify.Models
         [DefaultValue(false)]
         public bool IsDeleted { get; set; }
 
-        public int ArtistId { get; set; }
+
+
+        public string ArtistId { get; set; }
         [ForeignKey("ArtistId")]
-        public virtual Artist Artist { get; set; }
-        public virtual List<Song> Songs { get; set; }
+        public virtual Artist? Artist { get; set; }
+        
+        public virtual List<AlbumSongs>? AlbumSongs { get; set; }
+        //public virtual List<AlbumCategory>? AlbumCategory { get; set; }
+        public virtual int CategoryId { get; set; }
+        [ForeignKey("CategoryId")]
+        public virtual Category? Category { get; set; }
+
     }
 }
+
+        //public int AlbumCategoryId { get; set; }
+        //[ForeignKey("AlbumCategoryId")]

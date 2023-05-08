@@ -8,6 +8,7 @@ namespace Spotify.Models
         public Context() { }
         public Context(DbContextOptions options):base(options) { }
 
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Artist> Artists { get; set; }
         public DbSet<Album> Albums { get; set; }
@@ -17,7 +18,9 @@ namespace Spotify.Models
         public DbSet<Follower> Followers { get; set; }
         public DbSet<PlaylistSong> PlaylistsSong { get; set; }
         public DbSet<Type> Types { get; set; }
-        public DbSet<ArtType> ArtTypes { get; set; }
-        public DbSet<SongType> SongsTypes { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<ListenDate> ListenDates { get; set; }
+        //public DbSet<AlbumCategory> AlbumCategory { get; set; }
+        public DbSet<AlbumSongs> AlbumSongs { get; set; }
     }
 }

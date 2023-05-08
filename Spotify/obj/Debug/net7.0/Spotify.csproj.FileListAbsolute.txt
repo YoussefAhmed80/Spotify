@@ -240,3 +240,644 @@ F:\20_WebAPI\Projects\AuthWebApi\Spotify\Spotify\obj\Debug\net7.0\refint\Spotify
 F:\20_WebAPI\Projects\AuthWebApi\Spotify\Spotify\obj\Debug\net7.0\Spotify.pdb
 F:\20_WebAPI\Projects\AuthWebApi\Spotify\Spotify\obj\Debug\net7.0\Spotify.genruntimeconfig.cache
 F:\20_WebAPI\Projects\AuthWebApi\Spotify\Spotify\obj\Debug\net7.0\ref\Spotify.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\appsettings.Development.json
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\appsettings.json
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Spotify.exe
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Spotify.deps.json
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Spotify.runtimeconfig.json
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Spotify.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Spotify.pdb
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Azure.Core.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Azure.Identity.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Humanizer.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\System.CodeDom.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\System.Memory.Data.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Spotify\auth spotify\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.AssemblyReference.cache
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\Spotify.GeneratedMSBuildEditorConfig.editorconfig
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfoInputs.cache
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfo.cs
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CoreCompileInputs.cache
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cs
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cache
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.Spotify.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.build.Spotify.props
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Spotify.props
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Spotify.props
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.pack.json
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.build.json
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.development.json
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\scopedcss\bundle\Spotify.styles.css
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CopyComplete
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\Spotify.dll
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\refint\Spotify.dll
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\Spotify.pdb
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\Spotify.genruntimeconfig.cache
+F:\Spotify\auth spotify\Spotify\Spotify\obj\Debug\net7.0\ref\Spotify.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\appsettings.Development.json
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\appsettings.json
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Spotify.exe
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Spotify.deps.json
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Spotify.runtimeconfig.json
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Spotify.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Spotify.pdb
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Azure.Core.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Azure.Identity.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Humanizer.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\System.CodeDom.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\System.Memory.Data.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.AssemblyReference.cache
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\Spotify.GeneratedMSBuildEditorConfig.editorconfig
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfoInputs.cache
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfo.cs
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CoreCompileInputs.cache
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cs
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cache
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.Spotify.Microsoft.AspNetCore.StaticWebAssets.props
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.build.Spotify.props
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Spotify.props
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Spotify.props
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.pack.json
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.build.json
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.development.json
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\scopedcss\bundle\Spotify.styles.css
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CopyComplete
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\Spotify.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\refint\Spotify.dll
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\Spotify.pdb
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\Spotify.genruntimeconfig.cache
+F:\20_WebAPI\Projects\AuthWebApi\Auth2\Spotify\Spotify\obj\Debug\net7.0\ref\Spotify.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\appsettings.Development.json
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\appsettings.json
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Spotify.exe
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Spotify.deps.json
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Spotify.runtimeconfig.json
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Spotify.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Spotify.pdb
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Azure.Core.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Azure.Identity.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Humanizer.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\System.CodeDom.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\System.Memory.Data.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.AssemblyReference.cache
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\Spotify.GeneratedMSBuildEditorConfig.editorconfig
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfoInputs.cache
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfo.cs
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CoreCompileInputs.cache
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cs
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cache
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.Spotify.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.build.Spotify.props
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Spotify.props
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Spotify.props
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.pack.json
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.build.json
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.development.json
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\scopedcss\bundle\Spotify.styles.css
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CopyComplete
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\Spotify.dll
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\refint\Spotify.dll
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\Spotify.pdb
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\Spotify.genruntimeconfig.cache
+F:\Spotify\database\Spotify\Spotify\obj\Debug\net7.0\ref\Spotify.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Spotify.staticwebassets.runtime.json
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\Google.Protobuf.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\MySql.Data.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+F:\Spotify\database\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\appsettings.Development.json
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\appsettings.json
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Spotify.staticwebassets.runtime.json
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Spotify.exe
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Spotify.deps.json
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Spotify.runtimeconfig.json
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Spotify.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Spotify.pdb
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Azure.Core.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Azure.Identity.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Google.Protobuf.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Humanizer.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\MySql.Data.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\System.CodeDom.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\System.Memory.Data.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.AssemblyReference.cache
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\Spotify.GeneratedMSBuildEditorConfig.editorconfig
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfoInputs.cache
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfo.cs
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CoreCompileInputs.cache
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cs
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cache
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.Spotify.Microsoft.AspNetCore.StaticWebAssets.props
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.build.Spotify.props
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Spotify.props
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Spotify.props
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.pack.json
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.build.json
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.development.json
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\scopedcss\bundle\Spotify.styles.css
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CopyComplete
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\Spotify.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\refint\Spotify.dll
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\Spotify.pdb
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\Spotify.genruntimeconfig.cache
+F:\20_WebAPI\Projects\ThursDay_27\Spotify\Spotify\obj\Debug\net7.0\ref\Spotify.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.AssemblyReference.cache
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.GeneratedMSBuildEditorConfig.editorconfig
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfoInputs.cache
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfo.cs
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CoreCompileInputs.cache
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cs
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cache
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\refint\Spotify.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.pdb
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\appsettings.Development.json
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\appsettings.json
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.staticwebassets.runtime.json
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.exe
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.deps.json
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.runtimeconfig.json
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.pdb
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Azure.Core.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Azure.Identity.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Google.Protobuf.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Humanizer.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\MySql.Data.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\System.CodeDom.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\System.Memory.Data.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.Spotify.Microsoft.AspNetCore.StaticWebAssets.props
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.build.Spotify.props
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Spotify.props
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Spotify.props
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.pack.json
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.build.json
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.development.json
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\scopedcss\bundle\Spotify.styles.css
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CopyComplete
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.genruntimeconfig.cache
+F:\20_WebAPI\Projects\saturDay\Spotify\Spotify\obj\Debug\net7.0\ref\Spotify.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\appsettings.json
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Spotify.staticwebassets.runtime.json
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Spotify.exe
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Spotify.deps.json
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Spotify.runtimeconfig.json
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Spotify.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Spotify.pdb
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.AssemblyReference.cache
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\Spotify.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfoInputs.cache
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfo.cs
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CoreCompileInputs.cache
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.Spotify.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.build.Spotify.props
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Spotify.props
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Spotify.props
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\scopedcss\bundle\Spotify.styles.css
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CopyComplete
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\Spotify.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\refint\Spotify.dll
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\Spotify.pdb
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\Spotify.genruntimeconfig.cache
+C:\Users\Electronica Care\Downloads\Spotify (5)\Spotify\Spotify\obj\Debug\net7.0\ref\Spotify.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.AssemblyReference.cache
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.GeneratedMSBuildEditorConfig.editorconfig
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfoInputs.cache
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.AssemblyInfo.cs
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CoreCompileInputs.cache
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cs
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.MvcApplicationPartsAssemblyInfo.cache
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\refint\Spotify.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.pdb
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\appsettings.Development.json
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\appsettings.json
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.staticwebassets.runtime.json
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.exe
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.deps.json
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.runtimeconfig.json
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Spotify.pdb
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Azure.Core.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Azure.Identity.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Google.Protobuf.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Humanizer.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\MySql.Data.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\System.CodeDom.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\System.Memory.Data.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.Spotify.Microsoft.AspNetCore.StaticWebAssets.props
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.build.Spotify.props
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Spotify.props
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Spotify.props
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.pack.json
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.build.json
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\staticwebassets.development.json
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\scopedcss\bundle\Spotify.styles.css
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.csproj.CopyComplete
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\Spotify.genruntimeconfig.cache
+F:\20_WebAPI\Projects\_FriDay\Spotify\Spotify\obj\Debug\net7.0\ref\Spotify.dll
